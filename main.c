@@ -19,4 +19,7 @@ int main() {
 
 	x1 = (-b + sqrt(d)) / (2 * a);
 	x2 = (-b - sqrt(d)) / (2 * a);
+	printf ("x1 = %.1lf\n x2 = %.1lf\n", x1, x2);
+	return 0;
+}
 }
